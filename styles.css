@@ -2,10 +2,9 @@ body {
     display: flex;
     background-color: gray;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 90vh;
+    justify-content: center; /* Move boxes to the center */
+    align-items: center; /* Move content down to the middle of the page */
+    min-height: 90vh; /* Moves content to the middle of the viewport */
 }
 
 main {
