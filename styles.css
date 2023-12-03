@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    background-color: gray;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+}
+
+main {
+    display: flex;
+    font-size: 1.25em;
+}
+
+p {
+    border: solid black .5px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 7.5px;
+}
+
+.event-box {
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px;
+}
